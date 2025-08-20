@@ -56,7 +56,7 @@ public class WeekDayFinder
 	public String FindDayInAWeek(String user)
 	{
 		int day=date.getDayOfWeek().getValue();
-		if(day>=5)
+		if(day>=1 && day<=5)
 			return "Current day in a week is working day :"+user;
 		else
 			return "Current day in a week is Holiday day :"+user;

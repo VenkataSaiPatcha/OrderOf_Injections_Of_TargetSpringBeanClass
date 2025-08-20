@@ -42,7 +42,7 @@ public class AppConfig
 	}
 	
 	@Bean
-	
+	@Primary
 	public LocalTime createLocalTime1()
 	{
 		System.out.println("AppConfig.createLocalTime()");
